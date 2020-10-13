@@ -1,0 +1,55 @@
+.wrap_night{
+	h1{
+		color: #FCFCFC;
+	}
+	.switch{
+		.Specifications{
+			color: #4959FF;
+		}
+		div{
+			color: #99A7B5;
+			&:hover{
+				color: #4959FF!important;
+			}
+			&:focus{
+				color: #4959FF!important;
+			}
+		}
+	}
+	.zp{
+		color: #99A7B5!important;
+	}
+	h2{
+		color: #FCFCFC!important;
+	}
+	.icon{
+		background: #011C37!important;
+	}
+	h3{
+		color: #FCFCFC!important;
+	}
+	.item{
+		p{
+			color: #99A7B5!important;
+		}
+	}
+	.buy{
+		background: #011C37;
+		box-shadow: 1px -6px 113px 32px rgba(1,28,55,1)!important;
+		p{
+			color: #FCFCFC!important;
+		}
+	}
+	.cub{
+		position: absolute;
+	}
+	.hum{
+		position: absolute;
+	}
+	li{
+		color: #99A7B5!important;
+	}
+	h4{
+		color: #99A7B5!important;
+	}
+}

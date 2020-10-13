@@ -1,0 +1,197 @@
+
+.cont{
+	background: #F3F4F6;
+	width: 91.11111111111111vw;
+	height: 66.11111111111111vw;
+	margin: 2.777777777777778vw 4.444444444444444vw 3.333333333333333vw 4.444444444444444vw;
+	border-radius: 3.333333333333333vw;
+	position: relative;
+	.filter{
+		margin-left: 4.444444444444444vw;
+		padding-top: 3.888888888888889vw;
+		display: flex;
+		flex-flow: row nowrap;
+		p{
+			display: inline-block;
+			font-family: CodecPro-Bold;
+			font-size: 2.777777777777778vw;
+			color: #012345;
+			font-weight: 700;
+			line-height: 3.333333333333333vw;
+			background: #fff;
+		}
+		select{
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 2.777777777777778vw;
+			line-height: 3.333333333333333vw;
+			color: #4959FF;
+			border: none;
+			padding-left: .5vw;
+			padding-right: 2vw;
+			outline: none;
+			cursor: pointer;
+			-webkit-appearance: none;
+   			-moz-appearance: none;
+   			appearance: none;
+			background: #fff;
+			background-image: url(../img/str.svg);
+			background-repeat: no-repeat;
+			background-size: 1.666666666666667vw 1.666666666666667vw;
+			background-position: right .9vw;
+		}
+		select::-ms-expand { 
+    		display: none;
+		}
+		option{
+			font-size: 2.777777777777778rem;
+		}
+	}
+	.but{
+		position: absolute;
+		top: 3.888888888888889vw;
+		right: 4.444444444444444vw;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		&:hover p{
+			color: #27AE60;
+		}
+		&:hover button{
+			background: #27AE60;
+		}
+		&:active p{
+			color: #677B8F;
+		}
+		&:active button{
+			background: #677B8F;
+		}
+		p{
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			color: #4959FF;
+			font-size: 1.388888888888889vw;
+			line-height: 1.944444444444444vw;
+			display: inline-block;
+			height: 1.944444444444444vw;
+			cursor: pointer;
+		}
+		button{
+			width: 3.333333333333333vw;
+			height: 3.333333333333333vw;
+			margin-left: 1.388888888888889vw;
+			background: #4959FF;
+			border-radius: 30%;
+			border: none;
+			cursor: pointer;
+			outline: none;
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+			justify-content: center;
+			img{
+				width: 1.666666666666667vw;
+				height: 1.666666666666667vw;
+			}
+		}
+	}
+}
+
+.table{
+	width: 82.22152777777778vw;
+	height: 52.22222222222222vw;
+	margin: 2.777777777777778vw 4.444444444444444vw 3.888888888888889vw 4.444444444444444vw;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	.item{
+		width: 25.92569444444444vw;
+		height: 11.38888888888889vw;
+		background: #FCFCFC;
+		border-radius: 2.222222222222222vw;
+		position: relative;
+		cursor: pointer;
+		transition: background .2s;
+		&:hover{
+			background: rgba(153, 167, 181, .3);
+		}
+		.photo{
+			width: 6.111111111111111vw;
+			height: 6.111111111111111vw;
+			border-radius: 1.666666666666667vw;
+			margin-top: 1.666666666666667vw;
+			margin-left: 2.222222222222222vw;
+			display: inline-block;
+			background-size: 6.111111111111111vw 6.111111111111111vw;
+		}
+		.photo1{
+			background-image: url(../img/trans/1.jpg);
+		}
+		.photo2{
+			background-image: url(../img/trans/2.jpg);
+		}
+		.photo3{
+			background-image: url(../img/trans/3.jpg);
+		}
+		.photo4{
+			background-image: url(../img/trans/4.jpg);
+		}
+		.photo5{
+			background-image: url(../img/trans/5.jpg);
+		}
+		.photo6{
+			background-image: url(../img/trans/6.jpg);
+		}
+		.photo7{
+			background-image: url(../img/trans/7.jpg);
+		}
+		.photo8{
+			background-image: url(../img/trans/8.jpg);
+		}
+		.photo9{
+			background-image: url(../img/trans/9.jpg);
+		}
+		.photo10{
+			background-image: url(../img/trans/10.jpg);
+		}
+		.photo11{
+			background-image: url(../img/trans/11.jpg);
+		}
+		.photo12{
+			background-image: url(../img/trans/12.jpg);
+		}
+		h1{
+			display: inline-block;
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 1.111111111111111vw;
+			line-height: 0.9541666666666667vw;
+			color: #012345;
+			position: absolute;
+			top: 2.777777777777778vw;
+			left: 10vw;
+		}
+		h2{
+			display: inline-block;
+			font-family: CodecPro-News;
+			font-weight: 300;
+			font-size: 0.8333333333333333vw;
+			line-height: 1.233333333333333vw;
+			color: #677B8F;
+			position: absolute;
+			top: 4.583333333333333vw;
+			left: 10vw;
+		}
+		h3{
+			display: inline-block;
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 0.9722222222222222vw;
+			line-height: 1.438888888888889vw;
+			color: #F84AB3;
+			position: absolute;
+			top: 8.194444444444444vw;
+			left: 10vw;
+		}
+	}
+}

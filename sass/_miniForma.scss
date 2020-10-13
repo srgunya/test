@@ -1,0 +1,83 @@
+@media (max-width: 770px){
+	.forma{
+		width: 100vw;
+		height: 174.1333333333333vw;
+		top: 42.4vw;
+		border-radius: 6.4vw 6.4vw 0 0;
+		h1{
+			font-size: 6.4vw;
+			line-height: 7.68vw;
+			margin-left: 4.266666666666667vw;
+			margin-top: 7.466666666666667vw;
+		}
+		.ex{
+			width: 8.533333333333333vw;
+			height: 8.533333333333333vw;
+			border-radius: 2.133333333333333vw;
+			top: 6.4vw;
+			right: 4.266666666666667vw;
+			img{
+				width: 3.333333333333333vw;
+				height: 3.333333333333333vw;
+			}
+		}
+		.file{
+			width: 91.46666666666667vw;
+			height: 69.33333333333333vw;
+			margin-top: 6.4vw;
+			margin-left: 4.266666666666667vw;
+			border-radius: 4.266666666666667vw;
+			div{
+				width: 8.533333333333333vw;
+				height: 8.533333333333333vw;
+				border-radius: 2.133333333333333vw;
+				img{
+					width: 5.333333333333333vw;
+					height: 5.333333333333333vw;
+				}
+			}
+		}
+		input{
+			width: 91.46666666666667vw;
+			height: 13.86666666666667vw;
+			margin-top: 4.266666666666667vw;
+			margin-left: 4.266666666666667vw;
+			border-radius: 3.2vw;
+			font-size: 3.733333333333333vw!important;
+			line-height: 3.2vw!important;
+			padding-left: 5.333333333333333vw!important;
+		}
+		.price{
+			font-size: 3.733333333333333vw!important;
+			line-height: 3.2vw!important;
+			top: 5vw;
+			top: 137vw;
+			left: 85vw;
+		}
+		.lasttxt{
+			padding-right: 15vw!important;
+		}	
+	}
+	@keyframes open{
+	0%{
+		width: 0;
+	}
+	100%{
+		width: 100vw;
+	}
+}
+
+	@keyframes close{
+	0%{
+		width: 100vw;
+	}
+	100%{
+		width: 0;
+	}
+}
+	.wrap_forma{
+	height: 216vw!important;
+	min-height: 0;
+	overflow: hidden;
+	}
+}

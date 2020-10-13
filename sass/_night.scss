@@ -1,0 +1,147 @@
+.wrap_night{
+	background: #012345;
+	position: absolute;
+	.lable{
+		color: #99A7B5;
+	}
+	.night{
+		&:hover .night_mod{
+			color: #fff;
+		}
+		&:hover .day_mod{
+			color: #fff;
+		}
+		&:hover .sun_white{
+			opacity: 1;
+		}
+	}
+	.sun{
+		width: 1.666666666666667vw;
+		height: 1.666666666666667vw;
+	}
+	.sun_white{
+		width: 1.666666666666667vw;
+		height: 1.666666666666667vw;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		transition: opacity .2s;
+		&:hover{
+			opacity: 1;
+		}
+	}
+	.massage_white{
+		position: absolute;
+		width: 1.666666666666667vw;
+		height: 1.666666666666667vw;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		cursor: pointer;
+		transition: opacity .2s;
+		z-index: 100;
+		&:hover{
+			opacity: 1;
+		}
+	}
+	.bell_white{
+		position: absolute;
+		width: 1.666666666666667vw;
+		height: 1.666666666666667vw;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		cursor: pointer;
+		transition: opacity .2s;
+		z-index: 100;
+		&:hover{
+			opacity: 1;
+		}
+	}
+	.night{
+		p{
+			color: #99A7B5;
+		}
+	}
+	.name{
+		color: #FCFCFC;
+	}
+	.ava{
+		box-shadow: none!important;
+	}
+	.cont{
+		background: #011C37;
+	}
+	.filter{
+		p{
+			background: #011C37;
+			color: #FCFCFC;
+		}
+		select{
+			background: #011C37;
+			background-image: url(../img/str.svg);
+			background-repeat: no-repeat;
+			background-size: 1.666666666666667vw 1.666666666666667vw;
+			background-position: right .9vw;
+		}
+	}
+	.item{
+		background: #012345;
+		h1{
+			color: #FCFCFC;
+		}
+		h2{
+			color: #99A7B5;
+		}
+	}
+	.forma{
+		background: #012345;
+		h1{
+			color: #FCFCFC;
+		}
+		.ex{
+			background: #011C37;
+			&:hover{
+				background: rgba(223, 24, 24, .7);
+			}
+			&:active{
+				background: rgba(103, 123, 143, .3);
+			}
+		}
+		.file{
+			background: #011C37;
+			div{
+				background: #012345;
+				&:hover{
+					background: rgba(39, 174, 96, .7);
+				}
+				&:active{
+					background: rgba(103, 123, 143, .3);
+				}
+			}
+		}
+		input{
+			background: #011C37;
+			color: #99A7B5;
+			outline-color: #4959FF;
+			border: none;
+		}
+		.sub{
+			background: #4959FF;
+			color: #FCFCFC;
+			&:hover{
+				background: #27AE60;
+			}
+			&:active{
+				background: rgba(103, 123, 143, .3);
+			}
+		}
+		.price{
+			color: #677B8F;
+		}
+	}
+	.blur{
+		background: rgba(0, 7, 14, .32);
+	}
+}

@@ -1,0 +1,54 @@
+.container_three{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	.pi_one{
+		position: absolute;
+		top: 22.63888888888889vw;
+		left: 58.33333333333333vw;
+		font-family: CodecPro-News;
+		font-size: 0.9722222222222222vw;
+		line-height: 1.419444444444444vw;
+		color: #677B8F;
+	}
+	.pi_two{
+		position: absolute;
+		top: 25.13888888888889vw;
+		left: 58.33333333333333vw;
+		font-family: CodecPro-News;
+		font-size: 0.9722222222222222vw;
+		line-height: 1.419444444444444vw;
+		color: #677B8F;
+	}
+	h2{
+		width: 36.94444444444444vw;
+		font-size: 1.111111111111111vw;
+		line-height: 1.688888888888889vw;
+		position: absolute;
+		top: 30.97222222222222vw;
+		left: 58.33333333333333vw;
+		font-family: CodecPro-Bold;
+		font-weight: 700;
+
+	}
+	ul{
+		width: 36.94444444444444vw;
+		position: absolute;
+		top: 34.30555555555556vw;
+		left: 58.33333333333333vw;
+		li{
+			margin-bottom: 2.133333333333333vw;
+			font-family: CodecPro-News;
+			font-size: 0.9722222222222222vw;
+			line-height: 1.419444444444444vw;
+			color: #677B8F;
+			list-style-type: none;
+			background: url(../img/marker.png) no-repeat;
+			background-size: 0.2777777777777778vw 0.2777777777777778vw; 
+			padding-left: 1.5vw;
+			background-position: 0 0.5555555555555556vw;
+		}
+	}
+}

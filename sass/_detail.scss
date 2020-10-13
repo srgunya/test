@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.detail{
+	.cub{
+		position: absolute;
+	}
+	.hum{
+		position: absolute;
+	}
+	.photo{
+		width: 49.44444444444444vw;
+		height: 48.61111111111111vw;
+		background-image: url(../img/trans/2.jpg);
+		background-size: 49.44444444444444vw 48.61111111111111vw;
+		border-radius: 1.666666666666667vw;
+		margin-top: 2.777777777777778vw;
+		margin-left: 4.444444444444444vw;
+		display: inline-block;
+		z-index: 1000;
+		margin-bottom: 5vw;
+	}
+	h1{
+		font-family: CodecPro-Bold;
+		font-weight: 700;
+		font-size: 2.777777777777778vw;
+		line-height: 3.333333333333333vw;
+		color: #012345;
+		display: inline-block;
+		position: absolute;
+		top: 13.88888888888889vw;
+		left: 58.33333333333333vw;
+		z-index: 1000;
+	}
+	.switch{
+		display: flex;
+		flex-flow: row nowrap;
+		position: absolute;
+		top: 19.44444444444444vw;
+		left: 58.33333333333333vw;
+		color: #677B8F;
+		z-index: 1000;
+		.Specifications{
+			color: #4959FF;
+		}
+		.switch_none{
+			color: #677B8F!important;
+		}
+		div{
+			margin-right: 2.222222222222222vw;
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 1.111111111111111vw;
+			line-height: 0.9541666666666667vw;
+			color: #677B8F;
+			cursor: pointer;
+			outline: none;
+			&:hover{
+				color: #4959FF!important;
+			}
+			&:focus{
+				color: #4959FF;
+			}
+		}
+	}
+	.container_one{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	.pii{
+		display: inline-block;
+	 	width: 36.94444444444444vw;
+		height: 4.166666666666667vw;
+		font-family: CodecPro-News;
+		font-weight: 300;
+		font-size: 0.9722222222222222vw;
+		line-height: 1.419444444444444vw;
+		color: #677B8F;
+		position: absolute;
+		left: 58.33333333333333vw;
+		top: 22.63888888888889vw;
+				
+	}
+	h2{
+		display: inline-block;
+		font-family: CodecPro-Bold;
+		font-weight: 700;
+		font-size: 1.666666666666667vw;
+		line-height: 1.43125vw;
+		color: #012345;
+		position: absolute;
+		top: 29.02777777777778vw;
+		left: 58.33333333333333vw;
+	}
+	.item{
+		width: 37.15277777777778vw;
+		height: 6.666666666666667vw;
+		position: absolute;
+		.icon{
+			width: 5.555555555555556vw;
+			height: 6.666666666666667vw;
+			border-radius: 1.111111111111111vw;
+			background: #F3F4F7;
+			display: flex;
+			flex-flow: row nowrap;
+			align-items: center;
+			justify-content: center;
+			img{
+				width: 2.222222222222222vw;
+				height: 2.222222222222222vw;
+			}
+		}
+		h3{
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 1.111111111111111vw;
+			line-height: 1.688888888888889vw;
+			color: #012345;
+			position: absolute;
+			top: 0.8333333333333333vw;
+			left: 7.222222222222222vw;
+		}
+		p{
+			font-family: CodecPro-News;
+			font-weight: 300;
+			font-size: 0.9722222222222222vw;
+			line-height: 1.419444444444444vw;
+			color: #677B8F;
+			width: 29.93055555555556vw;
+			height: 2.777777777777778vw;
+			position: absolute;
+			top: 3vw;
+			left: 7vw;
+		}
+	}
+	.one{
+		top: 32.70833333333333vw;
+		left: 58.33333333333333vw;
+	}
+	.two{
+		top: 40.48611111111111vw;
+		left: 58.33333333333333vw;
+	}
+	}
+	.buy{
+		width: 37.22222222222222vw;
+		height: 5.555555555555556vw;
+		border-radius: 1.111111111111111vw;
+		background: #F3F4F7;
+		position: absolute;
+		left: 58.33333333333333vw;
+		top: 50.27777777777778vw;
+		p{
+			position: absolute;
+			top: 1.805555555555556vw;
+			left: 2.222222222222222vw;
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 1.388888888888889vw;
+			line-height: 1.944444444444444vw;
+			color: #012345;
+			span{
+				font-family: CodecPro-Bold;
+				font-weight: 700;
+				font-size: 1.388888888888889vw;
+				line-height: 1.944444444444444vw;
+				color: #F84AB3;
+			}
+		}
+		button{
+			width: 9.444444444444444vw;
+			height: 3.333333333333333vw;
+			border-radius: 0.8333333333333333vw;
+			border: none;
+			outline: none;
+			background: #4959FF;
+			color: #FCFCFC;
+			font-family: CodecPro-Bold;
+			font-weight: 700;
+			font-size: 1.111111111111111vw;
+			line-height: 0.9541666666666667vw;
+			position: absolute;
+			left: 25.55555555555556vw;
+			top: 1.111111111111111vw;
+			cursor: pointer;
+			&:hover{
+				background: #27AE60;
+			}
+			&:active{
+				background: rgba(103, 123, 143, .3);
+			}
+		}
+	}
+}
